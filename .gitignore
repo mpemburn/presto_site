@@ -1,0 +1,33 @@
+### Miscellaneous
+.DS_Store
+Thumbs.db
+
+### Homestead
+after.sh
+aliases
+Homestead.yaml
+Vagrantfile
+
+### Vagrant
+/.vagrant
+
+### Composer
+/vendor/
+
+### IDE
+/.idea
+
+### PHPCS
+cs_fixer*
+.php_cs.cache
+
+### NodeJS
+node_modules/
+
+### WordPress
+/htdocs/cms/
+/htdocs/content/uploads/
+/htdocs/content/upgrade/
+
+### Environment Credentials
+.env

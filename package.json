@@ -1,0 +1,30 @@
+{
+  "name": "themosis",
+  "version": "2.0.0",
+  "description": "Themosis framework",
+  "main": "/",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/themosis/framework/issues"
+  },
+  "homepage": "https://github.com/themosis/themosis#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
